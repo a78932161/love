@@ -322,9 +322,9 @@ body, button {
 }
 
 .flowtime p {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     line-height: 2rem;
-    margin: 2rem 0
+    margin: 2rem 0;
 }
 
 .flowtime ul, .flowtime ol, .flowtime dl {
@@ -512,6 +512,11 @@ body, button {
     }
 }
 
+.colorFFF {
+    color: #fff;
+}
+
+
 .parallax-demo {
     overflow: hidden
 }
@@ -645,7 +650,7 @@ body, button {
 
 .full-img img {
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 .full-img h3, .full-img .text, .full-img .center-text {
@@ -700,7 +705,9 @@ body, button {
 }
 
 .page-1 {
-    background: #fff url(img/iali53.jpg) bottom right no-repeat;
+    background: #fff url("https://static.missevan.com/mimages/202103/26/c2a4ec4336dd06c6277de93ed4301aa1174641.jpg?x-oss-process=style/webp") no-repeat;
+    background-size: cover;
+    background-position: -100px;
     text-align: left
 }
 
@@ -713,14 +720,16 @@ body, button {
 }
 
 .page-1 .text1 {
-    font-size: 3em;
-    color: #FA4A4A;
+    font-size: 2em;
+    /*color: #FA4A4A;*/
+    color: #ffffff;
     line-height: 2em;
-    margin: 0.5em 0 0 0.5em
+    margin: 1.5em 0 0 0.5em;
 }
 
 .page-1 .text2 {
     font-size: 1.2em;
+    color: #fff;
     margin: 1.5em 0 0 1.5em
 }
 
@@ -750,12 +759,18 @@ body, button {
 }
 
 .page-2 img {
-    height: 80%
+    object-fit: contain;
+    height: 80%;
 }
 
 .page-3 {
     background-color: #c1b287
 }
+
+.page-4 img {
+    object-fit: cover;
+}
+
 
 .page-6 {
     background-color: #ecfafb;
@@ -788,11 +803,11 @@ body, button {
 .page-7 h3 {
     position: absolute;
     top: 1em;
-    left: 50%;
-    padding: 0;
-    margin-top: 0;
+    left: 66%;
+    padding: 0px;
+    margin-top: 170px;
     margin-left: -240px;
-    z-index: 1
+    z-index: 1;
 }
 
 .page-8 {
@@ -804,7 +819,7 @@ body, button {
     position: absolute;
     top: 1em;
     left: 50%;
-    margin-left: -40%;
+    margin-left: -48%;
     padding: 0;
     margin-top: 0;
     width: 10em;
@@ -849,7 +864,14 @@ body, button {
 
 .page-13 {
     background-color: #feeff4;
-    padding: 0
+    padding: 0;
+    background-image: url("http://static.missevan.com/mimages/202102/26/7f6e1a7ebbcf84eb28a17b8f36121dc1182415.jpg?x-oss-process=style/webp");
+    background-size: cover;
+    background-position: -40px;
+}
+
+.page-13 h3 {
+    color: #fff;
 }
 
 .page-13 img {
@@ -861,99 +883,172 @@ body, button {
 }
 
 .page-14 {
-    background-color: #fbf7d1
+    background-color: #fbf7d1;
+    background-image: url("https://img.zcool.cn/community/010978605c2f7b11013e87f4aa4c02.gif");
+    background-size: cover;
+}
+
+.page-14 h3 {
+    margin-top: 50px;
 }
 
 .page-15 {
-    background: #dcf2fa url(img/iali45_bg.jpg)
+    background: #dcf2fa url("https://img.zcool.cn/community/013e5e605c2f7911013fb117d15c4f.gif");
+}
+
+.page-15 h3 {
+    margin-top: 3rem;
 }
 
 .page-16 {
-    background-color: #7db6df
+    background-color: #7db6df;
+    background-image: url("https://img.zcool.cn/community/015d0f5fbe5b5511013fdcc707db3a.jpg@1280w_1l_0o_100sh.jpg");
+    background-size: cover;
+}
+
+.page-16 h3 {
+    color: #fff;
 }
 
 .page-17 {
-    background-color: #e5f0f2
+    background-color: #e5f0f2;
+    background-image: url(img1/3.png);
+    background-size: cover;
 }
 
-.page-19 {
-    background-image: url(img/iali75_bg.jpg)
+.page-17 h3 {
+    color: #fff;
 }
 
-.page-19 h3 {
-    margin-bottom: 2em
+.page-18 {
+    background-image: url("https://img.zcool.cn/community/0153356093a7b611013f472017ddfb.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
+    background-position: -125px;
 }
 
 .page-18 .text {
-    margin-left: 1em;
-    margin-right: 1em
+    color: #fff;
+    /*margin-left: 1em;*/
+    /*margin-right: 1em*/
 }
+
+
+.page-19 {
+    background-image: url(img1/4.jpg);
+    background-size: 100%;
+
+    /*background-image: url("http://static.missevan.com/mimages/202103/26/849447c8c7b4557c894513080258ec83174600.jpg?x-oss-process=style/webp");*/
+    /*background-size: cover;*/
+    /*background-position: -168px;*/
+}
+
+.page-19 h3 {
+    margin-top: -2.5rem;
+    margin-left: -3rem;
+    color: #fff;
+}
+
+.page-19 div {
+    margin-left: 3rem;
+    text-align: left;
+    font-size: 2rem;
+}
+
 
 .page-20 {
-    background-color: #fcd0ca;
-    padding: 0
+    background: #fbf2a3 url(img1/1.jpg);
+    padding: 0;
+    background-size: cover;
+    background-position: -110px
 }
 
-.page-20 img {
-    position: absolute;
-    bottom: 0;
-    left: 4em
+.page-20 h3 {
+    padding-top: 16rem;
+    color: #fff;
 }
 
 .page-21 {
-    background: #fbf2a3 url(img/iali59_bg.jpg)
+    background: #fbf2a3 url(img1/5.jpg);
+    background-size: contain;
+}
+
+.page-21 h3 {
+    padding-top: 5rem;
 }
 
 .page-22 {
+    background: #fbf2a3 url(img1/6.jpg);
+    background-size: 100%;
     background-color: #f5d484
 }
 
-.page-23 {
-    background-color: #fff
+.page-22 h3 {
+    color: #ff0000ad;
 }
 
+.page-23 {
+    background-image: url("https://img.zcool.cn/community/01ffc75e86a58ea80120a8958b96c0.jpg@1280w_1l_2o_100sh.jpg");
+    background-color: #fff;
+    background-size: cover;
+    background-position: top;
+}
+
+.page-24 {
+    background-image: url("https://img.zcool.cn/community/01c4d05e030b3fa80120a895500c2d.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.page-24 h3 {
+    color: #fff;
+}
+
+
 .page-25 {
-    background-color: #fcc1b1
+    background-image: url("https://img.zcool.cn/community/01d7ae5e86a58da80120a8956b3968.jpg@1280w_1l_2o_100sh.jpg");
+    background-color: #fcc1b1;
+    background-size: cover;
+    background-position: center;
 }
 
 .page-26 {
-    background-color: #fdeacf
+    background-image: url("https://img.zcool.cn/community/01786b5e86a58ea801216518974b68.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #fdeacf;
 }
 
 .page-27 {
+    background-image: url("https://img.zcool.cn/community/01e10b5e86a584a80120a895a6d1c4.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
+    background-position: center;
     background-color: #ffc8c5;
     padding: 0
 }
 
 .page-27 h3 {
-    position: absolute;
-    z-index: 2;
-    width: 100%;
-    text-align: center
+    color: #fff;
+    /*position: absolute;*/
+    /*z-index: 2;*/
+    /*width: 100%;*/
+    /*text-align: center*/
 }
 
 .page-28 {
-    background: #b7e7f3 url(img/iali40_bg.jpg) bottom repeat-x;
-    padding: 0
+    background-image: url("https://img.zcool.cn/community/01234d5dc11398a8012163ba621a84.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-.page-28 img {
-    position: absolute;
-    bottom: 0;
-    left: 3em
-}
 
 .page-28 h3 {
-    position: absolute;
-    right: 1em;
-    bottom: 360px;
-    text-align: right;
-    color: #127184
+    color: #fff;
 }
 
 .page-29 {
-    background: #0d85d1;
-    padding: 0
+    background-image: url("https://img.zcool.cn/community/0117dd5dc11398a8012163baa297a8.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .page-29 h3 {
@@ -965,46 +1060,58 @@ body, button {
 }
 
 .page-30 {
-    background: #fff url(img/iali76_bg.png) center bottom repeat-x;
-    padding: 0;
-    padding: 0
+    background-image: url("https://img.zcool.cn/community/019f265dc1139da8012163ba6db01f.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-.page-30 img {
-    position: absolute;
-    bottom: 0;
-    left: 0
+.page-30 h3 {
+    padding-top: 0;
+    color: #fff;
 }
 
 .page-31 {
+    background-image: url("https://img.zcool.cn/community/011b5c5ed468bea801215aa0f6af2a.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
     background-color: #fbf5e9
 }
 
+.page-31 h3 {
+    padding-top: 4em;
+}
+
 .page-32 {
-    background-color: #faf2e5
+    background-image: url("https://img.zcool.cn/community/01b4ff5ed468bda801215aa08efaae.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .page-33 {
-    background-color: #fef0d5;
-    padding: 0
+    background-image: url("https://img.zcool.cn/community/01e1235ed467cea801206621d76a8d.gif");
+    background-size: cover;
+    background-position: center;
 }
 
 .page-33 h3 {
-    font-size: 1.8em;
-    color: #a58545
+    color: #fff;
 }
 
 .page-34 {
-    background: #94c2e3 url(img/iali57.jpg) left bottom no-repeat
+    position: relative;
+    background-image: url("https://img.zcool.cn/community/0151f35ed468bda80120662179b1eb.jpg@1280w_1l_2o_100sh.jpg");
+    background-position: bottom;
 }
 
 .page-34 h3 {
-    color: #fff
+    position: absolute;
+    bottom: 1px;
 }
 
+
 .page-35 {
-    background: #fff url(img/iali8_bg.png) left bottom repeat-x;
-    padding: 0
+    background-image: url("https://img.zcool.cn/community/018a805f28d9cca801215aa0da77ce.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
+    background-position: right;
 }
 
 .page-35 img {
@@ -1023,45 +1130,63 @@ body, button {
     font-size: 2em
 }
 
+.page-36 {
+    background-image: url("https://img.zcool.cn/community/014f8a5f28d9aba80120a821fa3d83.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .page-36 h3 {
-    text-align: right;
-    right: 1.5em;
+    padding-top: 14rem;
     color: #eee
 }
 
 .page-37 {
-    background-color: #fff
+    background-image: url("https://img.zcool.cn/community/01cbba5e86a6a0a80120a895339cab.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-37 h3 {
+    top: -1em;
+    color: #fff;
 }
 
 .page-38 {
-    background-color: #fff8f2
+    background-image: url("https://img.zcool.cn/community/0185515f28d972a801215aa09aaf44.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-38 h3 {
+    color: #fff;
 }
 
 .page-39 {
-    background: #e8ccc1 url(img/iali2_bg.jpg) repeat
+    background-image: url("https://img.zcool.cn/community/01e8f95f28d9b1a801215aa0c453a5.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-39 h3 {
+    position: absolute;
+    bottom: 1rem;
+    color: #fff;
 }
 
 .page-40 {
-    background-color: #cde7f4
-}
-
-.page-40 img {
-    position: absolute;
-    bottom: 1em;
-    left: 1em;
-    z-index: 1
+    background-image: url("https://img.zcool.cn/community/01ba7f5c382bc9a8012090db673720.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: contain;
 }
 
 .page-40 h3 {
-    position: absolute;
-    top: 1em;
-    right: 1em;
-    z-index: 2
+
+    color: #fff;
 }
 
 .page-41 {
-    background-color: #5aaadc;
-    padding: 0
+    background-image: url("https://img.zcool.cn/community/019d245c382bd7a80121fbb0174612.gif");
+    background-size: contain;
 }
 
 .page-41 .img2, .page-41 .img1 {
@@ -1080,14 +1205,12 @@ body, button {
 
 .page-41 h3 {
     padding: 0;
-    position: absolute;
-    top: 35%;
-    width: 100%;
-    text-align: center
 }
 
 .page-42 {
-    background-color: #c1c567
+    background-image: url("https://img.zcool.cn/community/017a4f5e030b40a80120a8955a3415.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .page-42 img {
@@ -1101,7 +1224,9 @@ body, button {
 }
 
 .page-43 {
-    background-color: #6b79ad
+    background-image: url("https://img.zcool.cn/community/0116205e030b3fa801216518611641.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .page-43 img {
@@ -1113,26 +1238,41 @@ body, button {
 }
 
 .page-44 {
-    background-color: #f3e7ab
+    background-image: url("https://img.zcool.cn/community/014e715e030b3fa80120a895374a8e.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: contain;
+}
+
+.page-44 h3 {
+    position: absolute;
+    top: 6em;
+    right: 0px;
+    z-index: 2;
+    text-align: right;
+    color: #fff;
 }
 
 .page-45 {
-    background-color: #b1dceb
+    background-image: url("https://img.zcool.cn/community/0189865c382bcca8012090dbd14a32.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
+    background-position: -11rem;
 }
 
+.page-45 h3 {
+    color: #fff;
+}
+
+
 .page-46 {
-    background: #66cbff
+    background-image: url("https://img.zcool.cn/community/01352f5c382bc4a80121fbb0201c5f.jpg@1280w_1l_2o_100sh.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .page-46 h3 {
     position: absolute;
-    top: 1em;
-    left: 50%;
-    margin-left: -40%;
-    padding: 0;
-    margin-top: 0;
-    width: 10em;
-    text-align: left
+    bottom: 1rem;
+    font-size: 2rem;
+    color: black;
 }
 
 .page-46 h3 span {
@@ -1142,18 +1282,12 @@ body, button {
 }
 
 .page-47 {
-    background-color: #fdcbca
+    background-image: url("https://img.zcool.cn/community/010cc05ca42e82a801208f8b300a50.gif");
+
 }
 
 .page-47 h3 {
-    position: absolute;
-    top: 1em;
-    left: 50%;
-    margin-left: -40%;
-    padding: 0;
-    margin-top: 0;
-    width: 10em;
-    text-align: left
+    color: #000000a6;
 }
 
 .page-47 h3 span {
@@ -1163,84 +1297,92 @@ body, button {
 }
 
 .page-48 {
-    background-color: #e3e2e7
+    background-image: url("https://img.zcool.cn/community/01ebb55ca42e83a801208f8ba49678.gif");
+    background-position: top;
+}
+
+.page-48 h3 {
+    color: #fff;
 }
 
 .page-49 {
-    background-color: #fce6b6;
-    text-align: left
+    background-image: url("https://img.zcool.cn/community/01550f5ca42e83a8012141682bc895.gif");
+    background-size: cover;
+    background-position: center;
 }
 
-.page-49 img {
-    margin: 0
+.page-49 h3 {
+    padding-top: 3em;
+    font-size: 2rem;
+    color: #fff;
 }
 
 .page-50 {
-    background-color: #aae1f6;
-    padding: 0
+    background-image: url("https://img.zcool.cn/community/011b9c5ca42e83a8012141686b14fc.gif");
+    background-position: center;
+    background-size: cover;
 }
 
-.page-50 .img1 {
-    position: absolute;
-    right: 0;
-    top: 0
-}
 
-.page-50 .img2 {
-    position: absolute;
-    left: 1em;
-    bottom: 1em
-}
-
-.page-50 p {
-    position: absolute;
-    top: 1em;
-    left: 1em;
-    width: 50%;
-    margin: 0;
-    z-index: 3;
-    font-size: 1.5em
+.page-50 h3 {
+    color: #fff;
 }
 
 .page-51 {
-    background-image: url(img/iali52.jpg);
+    background-image: url("https://img.zcool.cn/community/0130ad5ca42e83a801208f8ba05099.gif");
     background-size: cover;
-    background-color: #fff;
-    text-align: left
+    background-position: center;
+}
+
+.page-51 h3 {
+    color: #fff;
 }
 
 .page-52 {
-    background-color: #fff2fb;
-    padding: 0
+    background-image: url("https://img.zcool.cn/community/0127fc5fd84a9a11013fdcc7f55457.gif");
+    background-size: contain;
+    background-position: center;
 }
 
 .page-52 h3 {
-    margin: 0;
-    padding-top: .8em;
-    font-size: 1.6em;
-    color: #4e0f3d
+
 }
 
 .page-53 {
-    background-color: #febebe
+    background-image: url("https://img.zcool.cn/community/014cef5763c7500000012e7edaebbd.GIF");
+    background-size: cover;
+}
+
+.page-53 h3 {
+    color: #fff;
 }
 
 .page-54 {
-    background: #d3d2d0 url(img/319280_bg.jpg) repeat
+    background-image: url("img1/9.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-.page-54 .center-img {
-    background-image: url(img/319280.jpg);
-    text-indent: -99999px
-}
 
 .page-54 h3 {
-    line-height: 1rem;
-    padding-top: 0.5em
+    padding-top: 6.5em;
+    color: #000000c4;
 }
 
 .page-55 {
-    background-color: #fff
+    background-image: url("//static.missevan.com/mimages/202103/26/849447c8c7b4557c894513080258ec83174600.jpg?x-oss-process=style/webp");
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+}
+
+.endLoveText {
+    text-align: left;
+}
+
+.endLove {
+    margin-top: 10px;
+    display: block;
 }
 
 .write-tip {
@@ -1405,11 +1547,27 @@ body, button {
 }
 
 .mPower {
+    display: flex;
+    align-items: center;
     position: fixed;
     bottom: 9rem;
     right: -0.6rem;
     z-index: 999;
+    transition: all .5s cubic-bezier(.77, .10, .22, 1);
 }
+
+.showHide {
+    position: absolute;
+    text-align: center;
+    height: 90px;
+    background: #fff;
+    writing-mode: tb-rl;
+    color: black;
+}
+
+/*.mPower:active {*/
+/*    right: -19.6rem !important;*/
+/*}*/
 
 #on, #off {
     width: 16px;
