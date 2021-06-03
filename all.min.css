@@ -707,7 +707,7 @@ body, button {
 .page-1 {
     background: #fff url("https://static.missevan.com/mimages/202103/26/c2a4ec4336dd06c6277de93ed4301aa1174641.jpg?x-oss-process=style/webp") no-repeat;
     background-size: cover;
-    background-position: -100px;
+    background-position: center;
     text-align: left
 }
 
@@ -715,22 +715,18 @@ body, button {
     font-size: 1em
 }
 
-.page-1 img {
-    margin: 1em auto 0 1em
-}
-
 .page-1 .text1 {
-    font-size: 2em;
-    /*color: #FA4A4A;*/
+    margin: 0;
+    font-size: 1.2rem;
     color: #ffffff;
-    line-height: 2em;
-    margin: 1.5em 0 0 0.5em;
+    position: absolute;
+    bottom: 38%;
 }
 
 .page-1 .text2 {
-    font-size: 1.2em;
+    font-size: 1rem;
     color: #fff;
-    margin: 1.5em 0 0 1.5em
+    margin: 1em 0 0 1.5em
 }
 
 .flowtime .page-1 a {
@@ -747,10 +743,14 @@ body, button {
 }
 
 .page-2 {
+    background-image: url("https://img.zcool.cn/community/01bb9a58e48336a801219c77063434.gif");
+    background-size: cover;
+    background-position: center;
     background-color: #fefff1;
     padding: 0;
     text-align: center
 }
+
 
 .page-2 p {
     height: 10%;
@@ -764,25 +764,34 @@ body, button {
 }
 
 .page-3 {
+    background-image: url("https://img.zcool.cn/community/0140ea58e48340a801219c77638ec9.gif");
+    background-size: cover;
+    background-position: center;
     background-color: #c1b287
 }
 
-.page-4 img {
-    object-fit: cover;
+
+.page-4 {
+    background-image: url("https://img.zcool.cn/community/0136c258e48331a801219c77995b20.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-5 {
+    background-image: url("https://img.zcool.cn/community/0187a558e4831ba801219c77475514.gif");
+    background-size: cover;
+    background-position: center;
 }
 
 
 .page-6 {
+    background-image: url("https://img.zcool.cn/community/01098c59dc2870a801204463cc0a8a.gif");
+    background-size: cover;
+    background-position: center;
     background-color: #ecfafb;
     padding: 0
 }
 
-.page-6 img {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    max-width: 70%
-}
 
 .page-6 h3 {
     position: absolute;
@@ -792,38 +801,27 @@ body, button {
 }
 
 .page-7 {
+    background-image: url("https://img.zcool.cn/community/013ff659dc2870a80121ae0c483ca3.gif");
+    background-size: cover;
+    background-position: center;
     background-color: #e6fbec
 }
 
-.page-7 img {
-    max-height: 100%;
-    margin: 0 auto
-}
 
 .page-7 h3 {
-    position: absolute;
-    top: 1em;
-    left: 66%;
-    padding: 0px;
-    margin-top: 170px;
-    margin-left: -240px;
-    z-index: 1;
+    padding-top: 0;
 }
 
 .page-8 {
-    background: #66cbff
+    background-image: url("https://img.zcool.cn/community/01315958e48311a801219c77fcd131.gif");
+    background-size: cover;
+    background-position: center;
 }
 
 .page-8 h3 {
     color: #eef;
     position: absolute;
-    top: 1em;
-    left: 50%;
-    margin-left: -48%;
-    padding: 0;
-    margin-top: 0;
-    width: 10em;
-    text-align: left
+    bottom: 50%;
 }
 
 .page-8 h3 span {
@@ -833,18 +831,33 @@ body, button {
 }
 
 .page-9 {
+    background-image: url("https://img.zcool.cn/community/0115d058534100a8012060c89cc73a.gif");
+    background-size: cover;
+    background-position: center;
     background-color: #c9f4fb
 }
 
-.page-9 img {
-    margin-top: 3em
+.page-9 h3 {
+    color: #fff;
 }
 
 .page-10 {
-    background: url(img/iali22_bg.jpg)
+    background-image: url("https://img.zcool.cn/community/01afdc59dc286fa801204463e55f09.gif");
+    background-size: cover;
+    background-position: center;
 }
 
+.page-11 {
+    background-image: url("https://img.zcool.cn/community/0119e95fff9bf111013f7928490ece.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+
 .page-12 {
+    background-image: url("https://img.zcool.cn/community/01da745fff9bf311013f79286f97e7.gif");
+    background-size: cover;
+    background-position: center;
     background-color: #aff1ff;
     padding: 0
 }
@@ -1137,7 +1150,8 @@ body, button {
 }
 
 .page-36 h3 {
-    padding-top: 14rem;
+    position: absolute;
+    top: 30%;
     color: #eee
 }
 
@@ -1563,6 +1577,7 @@ body, button {
     background: #fff;
     writing-mode: tb-rl;
     color: black;
+    border-radius: 10px;
 }
 
 /*.mPower:active {*/
